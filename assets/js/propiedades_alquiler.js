@@ -44,7 +44,7 @@ const arriendo = document.getElementById("sealquilan");
 let sealquilanTemplate = "";
 // Itera solo sobre los primeros 3 elementos del arreglo
 for (let i = 0; i < 3; i++) {
-    const element = propiedades_venta[i];
+    const element = propiedades_alquiler[i];
     sealquilanTemplate += `
         <div class="col-md-4 mb-4">
             <div class="card">
